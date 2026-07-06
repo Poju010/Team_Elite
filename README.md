@@ -2,7 +2,7 @@
 
 Branch performance and sales trend analysis across ZenithMart's 5 Nigerian branches (FY2023–FY2024), built for a board review presentation using Microsoft Excel.
 
-![Dashboard Placeholder](docs/images/dashboard.png)
+![Dashboard Placeholder](C:\Users\HomePC\Desktop\DEC HACKATHON)
 
 ## Business Problem
 
