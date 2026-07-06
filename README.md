@@ -63,7 +63,7 @@ HQ received 24 months of raw transactional data from all five branches and neede
 ## How to Reproduce
 
 ```bash
-git clone https://github.com/<poju010>/team_elite.git
+git clone https://github.com/<poju010>/zenithmart-branch-performance.git
 ```
 Open `TEAM_ELITE.xlsx` for the cleaned dataset, pivots, and dashboard, and `TEAM_ELITE_EFM.pptx` for the full board presentation.
 
