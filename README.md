@@ -29,7 +29,9 @@ HQ received 24 months of raw transactional data from all five branches and neede
 
 ## Data Cleaning
 
+- Standardized inconsistent date formats across branches (yyyy-mm-dd, yyyy-mm-dd;@, mm-dd-yy) into one uniform format before consolidating into the master table
 - Trimmed trailing whitespace in branch names (e.g. `"Lagos Island "`)
+- Used TRIM() and PROPER() to remove extra spaces and standardize text casing in columns like Branch, Category, Product, and Customer Name (e.g. "Lagos Island " → "Lagos Island")
 - Fixed a full column swap between Satisfaction Score and Return Flag on one branch
 - Excluded out-of-range satisfaction scores (0, 6, 7) and invalid return flags from calculations (not imputed)
 - Left missing Payment Method (20.5%), Discount % (16.6%), and Phone (17.0%) blank rather than guessing
